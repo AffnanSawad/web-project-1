@@ -193,3 +193,34 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+
+/*footer*/
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(212, 194, 161);
+    margin-top: 100px;
+    padding: 130px 200px 
+
+}
+
+.footer-item{
+    width: 50%;
+
+}
+.contact input[tye="text"] ,input[type="email"],textarea{
+
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px ;
+
+    color: rgb(26, 26, 27);
+    border: 0;
+    width: 100%;
+}
+
+.social-link{
+    margin-right: 25px ;
+}
