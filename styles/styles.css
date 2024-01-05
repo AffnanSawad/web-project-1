@@ -1,0 +1,131 @@
+/* nav reltd styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px ;
+}
+.aff{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.primary{
+    color: orange;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+
+  list-style: none;
+  margin-right: 50px;
+  
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+.buttonprimary{
+
+ border-radius: 5px;
+ background-color: orange;
+ border: 0px;
+ color: white;
+ font-size: 15px;
+ font-weight: 500;
+ padding: 15px 35px;
+}
+
+
+
+.hh{
+    background-color:rgb(220, 216, 216);
+    background-image: url(../header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner{
+    padding: 30px 30px 0px 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile{
+
+    width: 300px;
+}
+.banner-greeting{
+    font-size: 45px;
+ color: #474747;
+ margin-bottom: 0 ;
+
+}
+
+.banner-title{
+       font-size: 85px ;
+       font-weight: 700;
+       margin-top: 5px;
+       margin-bottom: 20px;
+}
+
+.bannerdiscription{
+
+    max-resolution: 20px;
+
+}
+.banner-cotent{
+      max-width: 500px;
+}
+
+
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto ;
+}
+
+
+ /* section styles */
+
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-discription{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px;
+}
+.aboutinfocotainer{
+    display: flex ;
+    justify-content:space-around ;
+
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do{
+      
+    padding: 30px 150px ;
+
+}
